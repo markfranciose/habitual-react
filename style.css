@@ -1,0 +1,23 @@
+.flex-parent {
+	display: flex;
+	width: 100vw;
+	border: solid 2px black;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 4vh;
+}
+
+.flex-child {
+	margin-top: 4vh;
+	width: 21vw;
+	height: 200px;
+	border: 3px solid black;
+}
+
+.habit-head {
+  border: 1px solid black;
+}
+
+.habit-summary {
+	border: 1px solid black;
+}
