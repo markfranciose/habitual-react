@@ -1,0 +1,12 @@
+{
+	"habits": [
+		{
+			"name": "Feed cat oil",
+			"frequencyType": "daily"
+		},
+		{
+			"name": "Walk dog on the moon",
+			"frequencyType": "daily"
+		}
+	]
+}

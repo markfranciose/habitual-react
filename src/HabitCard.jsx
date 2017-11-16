@@ -18,3 +18,5 @@ class HabitCard extends React.Component {
   }
 
 }
+
+export default HabitCard;

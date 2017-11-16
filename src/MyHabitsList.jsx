@@ -1,8 +1,11 @@
 import React from 'react';
+import preload from 'habits.json';
+import HabitCard from './HabitCard';
 
 const MyHabitsList = (props) => (
 	<div id="habits-list-container">
-		<h3>This will be a habits list!</h3>
+	  {preload.habits
+		.map(habit => <HabitCard habit={habit} />)}
 	</div>	
 )
 
